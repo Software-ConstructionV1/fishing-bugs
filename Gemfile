@@ -1,7 +1,8 @@
 #source "https://rubygems.org"
 ruby "3.3.4"
 gem 'connection_pool'
-
+gem 'tzinfo'
+gem 'activesupport'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]

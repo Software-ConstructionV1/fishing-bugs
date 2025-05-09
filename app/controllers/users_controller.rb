@@ -1,5 +1,5 @@
-class UsersController < ApplicationController::Base
-  def show
+class UsersController <ApplicationController
+  def index
     @users = "OSAD 45"
   end
 end

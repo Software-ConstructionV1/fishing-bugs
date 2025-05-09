@@ -369,16 +369,51 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  actioncable
+  actionmailbox
+  actionmailer
+  actionpack
+  actiontext
+  actionview
+  activejob
+  activemodel
+  activerecord
+  activestorage
+  activesupport (~> 8.0)
+  ast
+  bcrypt_pbkdf
+  bindex
   bootsnap
   brakeman
+  builder
   capybara
+  connection_pool
+  crass
   debug
+  dotenv (~> 3.1)
+  ed25519
+  erubi
+  et-orbi
+  globalid
   importmap-rails
   jbuilder
   kamal
+  loofah
+  mail
+  marcel
+  mini_mime
+  msgpack
+  nio4r
+  nokogiri
   propshaft
   puma (>= 5.0)
+  rack
+  rack-session
+  rack-test
   rails (~> 8.0.2)
+  rails-dom-testing
+  rails-html-sanitizer
+  rake
   rubocop-rails-omakase
   selenium-webdriver
   solid_cable
@@ -388,8 +423,16 @@ DEPENDENCIES
   stimulus-rails
   thruster
   turbo-rails
+  tzinfo
   tzinfo-data
+  useragent
   web-console
+  websocket-driver
+  websocket-extensions
+  zeitwerk
+
+RUBY VERSION
+   ruby 3.3.4p94
 
 BUNDLED WITH
    2.6.6

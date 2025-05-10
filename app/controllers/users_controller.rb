@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  def show
+  def index
     @users = "OSAD 45"
   end
 end
